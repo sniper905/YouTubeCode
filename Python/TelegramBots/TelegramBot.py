@@ -35,8 +35,8 @@ class BotHandler:
         return last_update
 
 
-token = 'YourToken' #Token of your bot
-magnito_bot = BotHandler(token) #Your bot's name
+token = '1574002794:AAFxzHTODfINWN2XAJd2e9MABXn16sLEf4g' #Token of your bot
+magnito_bot = BotHandler(token) #LabRefundsBot
 
 
 
@@ -51,7 +51,7 @@ def main():
             for current_update in all_updates:
                 print(current_update)
                 first_update_id = current_update['update_id']
-                if 'text' not in current_update['message']:
+                i 'text' not in current_update['message']:
                     first_chat_text='New member'
                 else:
                     first_chat_text = current_update['message']['text']
